@@ -56,8 +56,7 @@ Run the compiled executable:
 2. Click on a candidate's name to cast your vote. A sound effect will play upon clicking.
 3. Click the "RESULTS" button to view the voting results in a graphical format.
 
-<img width="912" alt="Screenshot 2024-10-23 at 9 37 47 PM" src="https://github.com/user-attachments/assets/49b25a83-1337-4ed7-b5f4-9082a2d3cfd7">
-
+<img width="912" alt="Screenshot 2024-10-23 at 9 37 59 PM" src="https://github.com/user-attachments/assets/a08f6bce-5e06-4a65-8b61-49f2aeb47f58">
 
 4. Click the "EXIT" button to restart the voting process.
 
