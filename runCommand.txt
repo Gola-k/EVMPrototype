@@ -1,0 +1,3 @@
+brew install sfml
+For macos:
+g++ -o EVMPrototype EVMPrototype.cpp -I/opt/homebrew/include -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio

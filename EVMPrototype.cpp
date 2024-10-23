@@ -67,7 +67,7 @@ int main() {
             }
         }
 
-        window.clear(sf::Color::White);
+        window.clear(sf::Color::Black);
 
         if (showResults) {
             displayGraph(window, showResults);
@@ -139,9 +139,15 @@ void displayGraph(sf::RenderWindow &window, bool &showResults) {
         bar.setFillColor(sf::Color::Blue);
         window.draw(bar);
 
+        // Draw candidate names next to the bars
         sf::Text candidate(candidates[i], font, 20);
-        candidate.setPosition(100 + i * 100, 310);
+        candidate.setPosition(100 + i * 100, 310);  // Slightly below the bar
         window.draw(candidate);
+
+        // Display vote percentage on top of the bar
+        sf::Text voteText(std::to_string(percentages[i]) + "%", font, 15);
+        voteText.setPosition(100 + i * 100, 290 - percentages[i] * 3);  // On top of the bar
+        window.draw(voteText);
     }
 
     // Exit button to reset the voting
