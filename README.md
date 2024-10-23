@@ -50,8 +50,15 @@ Run the compiled executable:
 
 ## Usage
 1. Launch the application. You will see the candidate names displayed as buttons.
+
+<img width="912" alt="Screenshot 2024-10-23 at 9 37 47 PM" src="https://github.com/user-attachments/assets/ae1c81ba-1456-4f0d-b294-912b09c61c59">
+
 2. Click on a candidate's name to cast your vote. A sound effect will play upon clicking.
 3. Click the "RESULTS" button to view the voting results in a graphical format.
+
+<img width="912" alt="Screenshot 2024-10-23 at 9 37 47 PM" src="https://github.com/user-attachments/assets/49b25a83-1337-4ed7-b5f4-9082a2d3cfd7">
+
+
 4. Click the "EXIT" button to restart the voting process.
 
 ## Contributions
